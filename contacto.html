@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+    <title>Contacto - Ferreteria CHECHO</title>
+</head>
+<body>
+    <header>
+        <div id="navarriba">
+            <h1 class="titulo"><a href="./index.html" class="titulo">FERRETERIA CHECHO</a></h1>
+            <ul class="listnav1">
+                <li class="linav1"><a href="index.html" class="linav">Inicio</a></li>
+                <li class="linav1"><a href="productos.html" class="linav">Productos</a></li>
+                <li class="linav1"><a href="contacto.html" class="linav">Contacto</a></li>
+            </ul>
+            <a href="./carrito.html" class="logocarrito">
+                <box-icon name='cart' color='#ffffff' class="logocarrito" ></box-icon>
+            </a>
+        </div>
+        <div id="conteinernav">
+            <nav id="navbar">
+                <ul class="listnav">
+                    <li class="linav"><a href="index.html" class="linav">Inicio</a></li>
+                    <li class="linav"><a href="productos.html" class="linav">Productos</a></li>
+                    <li class="linav"><a href="contacto.html" class="linav">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="divh1">
+            <h1 id="h1contacto">Formulario de contacto</h1>
+        </div>
+        <div id="divform">
+            <form action="">
+                <div id="divnombre">
+                    <label for="nombre" class="labelcontacto">Nombre:</label>
+                    <input type="text" name="nombre" class="inputcontacto" placeholder="(opcional)">
+                </div>
+                <div id="divapellido">
+                    <label for="apellido" class="labelcontacto">Apellido:</label>
+                    <input type="text" name="apellido" class="inputcontacto" placeholder="(opcional)">
+                </div>
+                <div id="divtelefono">
+                    <label for="telefono" class="labelcontacto">Telefono:</label>
+                    <input type="text" name="telefono" class="inputcontacto" placeholder="(opcional)">
+                </div>
+                <div id="divemail">
+                    <label for="email" class="labelcontacto">Email:</label>
+                    <input type="email" name="email" class="inputcontacto" placeholder="(opcional)">
+                </div>
+                <div id="divqueja">
+                    <label for="queja" class="labelcontacto">Razon por la que desea contactarnos:</label>
+                    <textarea name="queja" id="inputcontacto" cols="30" rows="10" required></textarea>
+                </div>
+                    <div class="divenviar">
+                    <input type="submit" id="btnenviar">
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div id="facebook">
+            <box-icon type='logo' name='facebook-square'></box-icon>
+            <p id="pface">
+                <a href="https://www.facebook.com/ferreteria.checho.92" id="aface" target="_blank">
+                    Ferreteria CHECHO
+                </a>
+            </p>
+        </div>
+        <div id="wsp">
+            <box-icon type='logo' name='whatsapp'></box-icon>
+            <p id="pwsp">
+                <a href="https://wa.me/+542346417926" id="awsp" target="_blank">
+                    +54 2346 417926
+                </a> 
+            </p>
+        </div>  
+        <div id="map">
+            <box-icon type='solid' name='map'></box-icon>
+            <p id="pmap">Buenos Aires, Chivilcoy, Av. de Tomaso 420</p>
+        </div>
+    </footer>
+</body>
+</html>

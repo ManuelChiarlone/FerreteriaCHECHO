@@ -1,0 +1,96 @@
+@media screen and (min-width:768px) {
+    body{
+        display: block;
+    }
+    #imgquienessomos,#arreglamos,.listnav{
+        display:none;
+    }
+    #mitimiti{
+        display: block;
+        width: 100%;
+        height: 230px;
+    }
+    #navarriba{
+        justify-content: space-between;
+    }
+    .titulo{
+        font-size: 30px;
+    }
+    .listnav1{
+        display: flex;
+        list-style: none;
+    }
+    .linav1{
+        padding-left: 5rem;
+        padding-right: 5rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 2px;
+    }
+    #arreglamosgnde{
+        display: block;
+        width: 100%;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+    #divquienesomos{
+        text-align: left;
+        align-items: initial;
+    }
+    #parrafoquienesomos{
+        width:100%;
+        max-width: 1200px;
+        font-size: 20px;
+    }
+    #divbtnmain{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .btn{
+        padding: 5px 30px;
+    }
+    footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: .5rem 0 .5rem 0;
+    }
+    #facebook{
+        margin-top: 0px;
+    }
+    #mainproductos{
+        flex-direction: row;
+        margin: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .divcard{
+        margin: 10px;
+    }
+    #topcarrito{
+        border: 0px;
+        justify-content: flex-start;
+        margin-left: 10rem;
+        margin-top: 10px;
+    }
+    .conteinerproductos{
+        justify-content: flex-start;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+    .productoencarrito{
+        max-width: 1000px;
+        margin-left: 15px;
+    }
+    .dbtncarrito{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .btncarrito{
+        padding: 5px;
+        max-height: 40px;
+    }
+    .butcomprar{
+        margin-top: 18px;
+    }
+}

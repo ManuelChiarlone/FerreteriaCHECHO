@@ -1,0 +1,265 @@
+*{
+    padding: 0;
+    line-height: 1.15;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    background-color: #f3f3f3;
+    position: relative;
+}
+a{
+    text-decoration: none;
+}
+header{
+    background-color: #00276c;
+    margin: 0px;
+}
+#navarriba{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logocarrito{
+    margin: 0px;
+    margin-right: 10px;
+}
+.titulo{
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(250, 250, 250);
+    margin: 5px;
+    margin-left: 4px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.listnav{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px
+}
+.linav{
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+.listnav1,#mitimiti,#arreglamosgnde{
+    display: none;
+}
+#imgquienessomos,#arreglamos{
+    width: 100%;
+}
+#divquienesomos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 1px #1a5fd6;
+    background-color: #ffff;
+    margin: 10px;
+    padding: 1.2rem;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.titulocomun1{
+    font-family: 'Mukta', sans-serif;
+    font-size: 25px;
+    background-color: #467fe1;
+    padding: 2px;
+    margin: 2px;
+}
+#parrafoquienesomos{
+    font-family: 'Mukta', sans-serif;
+    margin: auto;
+    padding-top:.5rem;
+    padding-right: .2rem;
+}
+
+main{
+    min-height: 82vh;
+}
+#divbtnmain{
+    display: flex;
+    flex-direction: column;
+}
+.btn{
+    background-color: #00276c;
+    color: white;
+    border: #00276c;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    margin-bottom: 10px;
+    padding: 3px;
+}
+.btn:hover{
+    background-color: #1a5fd6;
+    color: black;
+    cursor: pointer;
+}
+footer{
+    background-color: #636363;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    width: 100%;
+}
+#facebook{
+    display: flex;
+    margin-top: 10px;
+}
+#wsp,#map{
+    display: flex;
+}
+#awsp,#aface{
+    color: black;
+}
+#pwsp,#pmap,#pface{
+    margin-top: 3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sacarcolor{
+    color: white;
+}
+.sacarcolor:hover{
+    color: black;
+    cursor: pointer;
+}
+/*aca empieza contacto */
+.divh1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#h1contacto,.labelcontacto{
+    color: #00276c;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.labelcontacto{
+    margin-right: 2px;
+}
+#divnombre,#divapellido,#divqueja,#divtelefono,#divemail{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+#divqueja{
+    flex-direction: column;
+}
+#divnombre,#divapellido,#divtelefono,#divemail{
+    justify-content: center;
+}
+.divenviar{
+    display: flex;
+    justify-content: center;
+}
+#btnenviar{
+    background-color: #00276c;
+    color: white;
+    border: #00276c;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+#btnenviar:hover{
+    background-color: #1a5fd6;
+    color: black;
+    cursor: pointer;
+}
+/*aca empieza productos*/
+#mainproductos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.divcard{
+    border: solid 1px black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 280px;
+    height: 430px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.imgcard{
+    width: 278px;
+    height: 280px;
+    max-width: 280px;
+    max-height: 280px;
+}
+.tituloproducto{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 2px;
+}
+.btncomprar{
+    background-color: #00276c;
+    color: white;
+    border: #00276c;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+    border-radius: 5%;
+    padding: 3px;
+}
+.btncomprar:hover{
+    background-color: #1a5fd6;
+    color: black;
+    cursor: pointer;
+}
+.precio{
+    margin:4px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*Aca Empieza Carrito*/
+#topcarrito{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: #1a5fd6;
+    display: flex;
+    justify-content: center;
+    margin: 5px 5px;
+    border: 1px solid gray;
+}
+.conteinerproductos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 15px;
+}
+.productoencarrito{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 250px;
+}
+.imgpr{
+    margin: 15px 0px;
+}
+.dbtncarrito{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.btncarrito{
+    background-color: #00276c;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    border: none;
+    padding: 3px;
+}
+.btncarrito:hover{
+    background-color: #1a5fd6;
+    color: black;
+}
+.butcomprar{
+    cursor: pointer;
+}
